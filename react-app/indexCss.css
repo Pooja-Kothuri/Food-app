@@ -1,0 +1,136 @@
+/* header */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width:84%;
+    margin:0 auto;
+    /* border:3px solid black; */
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+ 
+  border:2px solid red;
+  
+}
+
+.logo{
+    height:110px;
+    width:100px;
+    margin-left:10px;
+}
+.nav-items >ul{
+    display:flex;
+    /* justify-content:space-between; */
+    margin:10px;
+}
+.nav-items ul li{
+    list-style:none;
+    margin:10px;
+    font-size:1.5em;
+    font-family:'Times New Roman', Times, serif;
+    cursor:pointer;
+    
+}
+.link{
+    text-decoration:none;
+}
+.login{
+    width:80px;
+    cursor:pointer;
+}
+
+
+/* body */
+.body-container{
+    border:5px solid red;
+}
+
+.search{
+    width:98%;
+    margin: 0 auto;
+    margin-block:20px;
+}
+
+.search-bar,.Stext{
+    width:40%;
+    height:30px;
+    font-size:1em;
+}
+
+input[type="submit"],.Ssearch{
+    width:60px;
+    height:31px;
+} 
+
+.Stext,.Ssearch,.Sbutton{
+    background-color:rgb(214, 207, 207);
+}
+/* button */
+.rate,.Ssearch{
+    margin-left:10px;
+    height:25px;
+    width:100px;
+}
+
+/* shimmer */
+
+
+.shimmer-container,.restro-container{
+    /* width:98%; */
+    /* margin: 0 auto; */
+    /* border:2px solid red; */
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    row-gap:20px;
+    column-gap:10px;
+}
+.shimmer-container{
+     width:98%; 
+     margin: 20px auto;
+     
+}
+
+/* restroData */
+.card,.Scard{
+    /* border:2px solid black; */
+    width:280px;
+    height:300px;
+    border-radius:10px;
+}
+.card:hover{
+    /* margin:-10px; */
+}
+.Scard{
+    /* background-color: rgb(184, 182, 182); */
+}
+.res-logo,.img-logo{
+    width:280px;
+    height:180px;
+   object-fit:cover;
+    /* margin:5px 10px 5px 10px; */
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.img-logo{
+    background-color:gray;
+}
+.name{
+  white-space:nowrap; /*whole text comes in single line*/
+  overflow:hidden; /*overflow is hidden*/
+  text-overflow: ellipsis;
+}
+.cuisines{
+    color:red;
+    overflow-wrap:break-word;   
+}
+
+
+/* restroInfo */
+

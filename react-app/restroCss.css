@@ -1,0 +1,74 @@
+.restroInfo-container{
+    width:70%;
+    margin:30px auto;
+    /* border:2px solid black; */
+}
+
+.card-0{
+    /* line-height:24px; */
+   padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom:2px dotted gray;
+}
+.card-0 p{
+    margin:3px 0;
+    
+}
+
+.card-1 span{
+    margin-right:30px;
+ 
+}
+.card-1 {
+   border-bottom:2px solid gray;
+   padding-bottom:20px;
+}
+
+.title {
+    display:flex;
+    justify-content: space-between;
+    margin:15px 0;
+    /* border-top:2px dotted gray; */
+     padding:10px 0 0 0; 
+}
+/* menucards */
+
+.menuCard{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height:150px;
+    border-bottom:2px solid gray;
+    padding-bottom:5px;
+    margin : 10px 0;
+}
+.restroImage-container{
+    position:relative;
+    margin-right:20px;
+}
+.restroImage{
+    width:150px;
+    height:100px;
+   
+}
+.addBtn{
+    position:absolute;
+    top:0;
+    left:65px;
+    width:45px;
+    /* background-color: black; */
+    /* color:white; */
+    border-radius:8px;
+}
+.border{
+    border:10px solid gray;
+}
+
+.cartHeader{
+  display:flex;
+  justify-content: space-between;
+}
+
+.clearbtn{
+    cursor:pointer;
+}
